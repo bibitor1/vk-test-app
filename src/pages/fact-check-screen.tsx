@@ -39,7 +39,7 @@ export const FactCheckScreen: FC<NavIdProps> = ({ id }) => {
         <Button
           size="m"
           appearance="positive"
-          /*onClick={() => routeNavigator.push("second")}*/
+          onClick={() => routeNavigator.push("second")}
         >
           Узнай свой возраст по имени
         </Button>
@@ -58,7 +58,7 @@ export const FactCheckScreen: FC<NavIdProps> = ({ id }) => {
           appearance="positive"
           style={{ marginBlock: "20px" }}
         >
-          Узнай случайный факт!
+          Узнать случайный факт
         </Button>
         <textarea
           ref={ref}
